@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71E54D8F199D4939009FF939"
+               BlueprintIdentifier = "A5B96D241ADC430800B6C03C"
                BuildableName = "IntroducingFunctions-Swift.app"
                BlueprintName = "IntroducingFunctions-Swift"
                ReferencedContainer = "container:IntroducingFunctions-Swift.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71E54D9C199D4939009FF939"
+               BlueprintIdentifier = "A5B96D391ADC430800B6C03C"
                BuildableName = "IntroducingFunctions-SwiftTests.xctest"
                BlueprintName = "IntroducingFunctions-SwiftTests"
                ReferencedContainer = "container:IntroducingFunctions-Swift.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71E54D9C199D4939009FF939"
+               BlueprintIdentifier = "A5B96D391ADC430800B6C03C"
                BuildableName = "IntroducingFunctions-SwiftTests.xctest"
                BlueprintName = "IntroducingFunctions-SwiftTests"
                ReferencedContainer = "container:IntroducingFunctions-Swift.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71E54D8F199D4939009FF939"
+            BlueprintIdentifier = "A5B96D241ADC430800B6C03C"
             BuildableName = "IntroducingFunctions-Swift.app"
             BlueprintName = "IntroducingFunctions-Swift"
             ReferencedContainer = "container:IntroducingFunctions-Swift.xcodeproj">
@@ -72,10 +72,11 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71E54D8F199D4939009FF939"
+            BlueprintIdentifier = "A5B96D241ADC430800B6C03C"
             BuildableName = "IntroducingFunctions-Swift.app"
             BlueprintName = "IntroducingFunctions-Swift"
             ReferencedContainer = "container:IntroducingFunctions-Swift.xcodeproj">
@@ -90,10 +91,11 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71E54D8F199D4939009FF939"
+            BlueprintIdentifier = "A5B96D241ADC430800B6C03C"
             BuildableName = "IntroducingFunctions-Swift.app"
             BlueprintName = "IntroducingFunctions-Swift"
             ReferencedContainer = "container:IntroducingFunctions-Swift.xcodeproj">
