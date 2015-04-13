@@ -13,9 +13,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    func printIntroductions(name: String) -> Void {
+        println(String(format: "My name is %@", name))
+        println(String(format: "%@ to mouishimasu", name))
+    }
+    
+    func countDownTilIntroduction(numberOfDays : Int) -> Void {
+        if (numberOfDays==0) {
+            println("The time has come")
+        } else {
+            println("\(numberOfDays) days left until introductions")
+            var oneLessDay : Int = numberOfDays - 1
+            countDownTilIntroduction(oneLessDay)
+        }
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var myName : String = "Doug"
+        //String(format: "hex string: %X", 123456)
+        //var introduction : String = String(format: "My name is %@", myName)
+        //println("introduction = \(introduction)")
+        //var japaneseIntroduction : String = String(format: "%@ to mouishimasu", myName)
+        //println("japaneseIntroduction = \(japaneseIntroduction)")
+        countDownTilIntroduction(4)
+        printIntroductions(myName)
+        
         return true
     }
 
